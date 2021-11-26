@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Anasayfa | Portakal</title>
+		<link rel="stylesheet" href="stil.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	
+	<body>
+		<div class="iskelet">
+			<div class="marka"><a href="index.html" style="text-decoration: none">
+				<font color="black">Portakal Çeviri</font></a>
+			</div>
+			
+			<div class="marka_sag"></div>
+			<div class="menu_cubuk">
+				<ul> 
+					<li><a href="menu/iletisim/iletisim.html">İletişim</a></li>
+					<li><a href="menu/hakkımızda/hakkımızda.html">Hakkımızda</a></li>
+					<li><a href="menu/yardım/yardım.html">Yardım</a></li>
+				</ul>
+			</div>
+			
+			<div class="sosyal_hesap" align="center"> 
+					<a href="https://open.spotify.com/user/tvlvq3i9fy11jksqh8eo6nzbv?si=06df8c74f9644169" target="_blank">
+						<img src="images/spotify.png" title="Kişisel Spotify Hesabım İçin Tıkla!"  width="44"/> </a>
+					<a href="https://www.youtube.com/channel/UCVplpnmu6NkTvDjCyXkrQiA" target="_blank">
+						<img src="images/youtube.png" title="Kişisel YouTube Hesabm İçin Tıkla!" width="50"/> </a>
+			</div> 
+			
+			<div class="ana_ekran_menu">
+				<ul>
+					<li><a href="index.html">Ana Sayfa</a></li>
+					<li><a href="">Sanatçılar</a>
+						<ul>
+							<li><a href="sanatçılar/bonnie/bonnie.html">Bonnie Tyler</a></li>
+							<li><a href="sanatçılar/manowar/manowar.html">Manowar</a></li>
+							<li><a href="sanatçılar/toto/toto.html">TOTO</a></li>
+						</ul></li>
+					<li><a href="">Şarkılar</a>
+						<ul>
+							<li><a href="şarkılar/heartofsteel/heartofsteel.html">Heart of Steel</a></li>
+							<li><a href="şarkılar/holdingoutforahero/holdingoutforahero.html">Holding out for a Hero</a></li>
+							<li><a href="şarkılar/holdtheline/holdtheline.html">Hold the Line</a></li>
+						</ul></li>
+				</ul>
+			</div>
+				
+			<div class="ana_ekran_sag">
+				<div id="buton" align="center"></div>
+				<p><b>Portakal Çeviri Sitesine Hoşgeldiniz!</b> Burada dilediğiniz şarkıların Türkçe'ye çevirilmiş sözlerini bulabilirsiniz. Olabildiğince sade yapmaya çalıştığım bu arayüz, size dilediğiniz şarkının Türkçesine anında ulaşma şansı veriyor!</p>
+				<p>Dilerseniz yukarıdaki spotify ve youtube ikonlarına tıklayarak kişisel profillerime ulaşabilirsiniz. Sizler için kendi ellerimle hazırladığım bazı playlistlerim var!</p>
+				<p>Ayrıca en sevdiğiniz sanatçılar hakkında bilgiye ulaşmak için de yan tarafta yer alan "Sanatçılar" sekmesindeki istediğiniz sanatçıya tıklamanız yeterli.</p>
+				<p>Sitemizi keşfederken keyifli vakit geçirmenizi dilerim!</p>
+			</div>
+			<div class="footer"><center><p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+
+			<p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+			W3Schools is Powered by W3.CSS.</p></center></div>
+		</div>
+	</body>
+	
+	
+	<script>         
+            var btn=document.createElement("button");
+            
+            btn.setAttribute("id","btn1");
+            btn.setAttribute("name","btn1");
+            btn.innerText="Öğrenci Bilgileri";
+			
+			btn.style.cssText="background:orange;  font-size:16px; padding:8px; margin:10px"; 
+            
+            btn.onclick=function(){
+                window.alert("Mustafa Burak Sert 192114021");
+            }
+			
+			var panelDiv=document.getElementById("buton");
+            panelDiv.appendChild(btn);
+	</script>
+	
+</html>

@@ -1,0 +1,145 @@
+.iskelet{ 
+	width:60%; 
+	height:auto; 
+	margin:1% auto
+}
+
+.marka{ 
+	width:30%; 
+	height:80px; 
+	float:left; 
+	background:#ff6600; 
+	border-radius:10px 0 0 10px; 
+	text-align:center; 
+	font:bold 200% calibri;
+	padding:2% 0 0 0;
+}
+
+.marka_sag{ 
+	width:69%; 
+	height:80px; 
+	float:left; 
+	margin:0 0 0 1%; 
+	background:#808080 url("../../images/mic.jpg") no-repeat center;
+	border-radius:0 10px 10px 0; 
+	font:bold 15px tahoma; 
+	text-align:center; 
+	padding:2% 0 0 0 
+}
+
+.menu_cubuk{
+	width:89%; 
+	height:40px; 
+	float:left; 
+	margin:1% 0 0 0;
+	background:#8c8c8c;
+}
+
+.sosyal_hesap{
+	width:10%; 
+	height:40px; 
+	float:left; 
+	margin:1% 0 0 1%;
+}
+
+.ana_ekran_menu{
+	width:14.5%; 
+	height:910px; 
+	float:left; 
+	margin:1% 1% 0 0;
+	background:#8c8c8c;
+}
+
+.ana_ekran_menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.ana_ekran_menu ul li{
+	position:relative;
+}
+
+.ana_ekran_menu a{
+	display:block;
+	width:100%; 
+	color:black;
+	font:150% calibri;
+	text-decoration:none;
+	text-align:center;
+	margin:15% 0 15% 0;
+}
+
+.ana_ekran_menu a:hover{
+	background:#ff944d;
+}
+
+.ana_ekran_menu ul li ul{
+	width:150%;
+	display:none;
+	position:absolute; 
+	left:100%;
+	top:0;
+}
+
+
+.ana_ekran_menu ul li:hover ul{
+	display:block;
+	background:#737373;
+	border-radius:10px;
+}
+
+.ana_ekran_sag{
+	width:83%;
+	height:900px;
+	float:left;
+	margin:10px 0 0 0;
+	padding:1% 0 0 1.5%;
+	background:#bfbfbf;
+	font:20px calibri; 
+}
+
+.ana_ekran_sag img{
+	width:25%;
+	margin:1% 2% 0 0;
+	position:relative;
+}
+
+.footer{
+	width:100%; 
+	height:80px; 
+	float:left; 
+	margin:1% 0 0 0;
+	background:#ff6600;
+	border-radius:10px; 
+	font:70% calibri;
+}
+
+.menu_cubuk ul{
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.menu_cubuk li{
+	float:left;	
+}
+
+.menu_cubuk a{
+	display:block;
+	width:307px;
+	height:37px;
+	text-decoration:none;
+	text-align: center;
+	font:150% calibri;
+	color: black;
+	padding:1% 0 0 0;
+}
+
+.menu_cubuk a:hover{
+	background:#ff944d;
+}
+
+.sosyal_hesap img{
+	float:left;
+}
